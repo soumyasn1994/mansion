@@ -1,0 +1,4 @@
+<?php
+echo "<td><a onclick='SAVE'  href='edit.php?id=<?php echo $result["id"];?>'>EDIT</a> | <a href='delete.php?id=".$result['id']."'>DELETE</a></td>";
+
+?>
